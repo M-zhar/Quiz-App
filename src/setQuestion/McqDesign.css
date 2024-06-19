@@ -1,0 +1,87 @@
+/* McqDesign.css */
+.mcq-design {
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mcq-design h2, .mcq-design h3 {
+    color: #003366;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #003366;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.save-btn {
+    background-color: #003366;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.save-btn:hover {
+    background-color: #00509e;
+}
+
+.saved-question {
+    background-color: #e6f0ff;
+    border-left: 5px solid #003366;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.test-setup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.test-setup label {
+    color: #003366;
+}
+
+.test-setup input {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #003366;
+    border-radius: 5px;
+}
+
+.start-btn {
+    background-color: #003366;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.start-btn:hover {
+    background-color: #00509e;
+}
