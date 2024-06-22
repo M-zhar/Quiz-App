@@ -60,7 +60,7 @@ const McqDesign = ({ onSave, questions, onStartTest }) => {
                     onChange={(e) => setCorrectAnswer(e.target.value)} 
                 />
             </div>
-            <button className="save-btn" onClick={handleSave}>Save Question</button>
+            <button className="save-btn" onClick={handleSave}>Save Your Question</button>
 
             <h3>Saved Questions</h3>
             {questions.map((q, index) => (
